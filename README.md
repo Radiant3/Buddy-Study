@@ -22,7 +22,7 @@ Src
 
 -->-->.css -> main page css
 
--->-->.html -> main page html + where to 
+-->-->.html -> main page html + where to insert page companent in
 
 -->-->.spec.ts -> ignore
 
