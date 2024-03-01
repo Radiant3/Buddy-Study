@@ -1,40 +1,5 @@
 # StudyBuddy
 
-## Rough component function
-backend -> backend logic
---controller ->
---model -> data object schema
---routes -> API routing
-
-Src
-
---app -> component pages folder
-
-----index -> eg page component name 'index'
-
-------.css -> css part
-
-------.html ->html part
-
-------.ts -> logic
-
-------.ts -> ignore
-
-----.css -> main page css
-
-----.html -> main page html + where to insert page companent in
-
-----.spec.ts -> ignore
-
-----.module.ts -> page routing 
-
-----.database.service.spec.ts -> ignore
-
-----.database.service.ts -> database service to serve api endpoints
-
-
-server.js -> node + other external api addon + connect server 
-
 ## Testing Backend
 
 Make sure you are in studybuddy folder using `cd studybuddy`
