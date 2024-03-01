@@ -2,35 +2,35 @@
 
 ## Rough component function
 backend -> backend logic
--->controller ->
--->model -> data object schema
--->routes -> API routing
+--controller ->
+--model -> data object schema
+--routes -> API routing
 
 Src
 
--->app -> component pages folder
+--app -> component pages folder
 
--->-->index -> eg page component name 'index'
+----index -> eg page component name 'index'
 
--->-->-->.css -> css part
+------.css -> css part
 
--->-->-->.html ->html part
+------.html ->html part
 
--->-->-->.ts -> logic
+------.ts -> logic
 
--->-->-->.ts -> ignore
+------.ts -> ignore
 
--->-->.css -> main page css
+----.css -> main page css
 
--->-->.html -> main page html + where to insert page companent in
+----.html -> main page html + where to insert page companent in
 
--->-->.spec.ts -> ignore
+----.spec.ts -> ignore
 
--->-->.module.ts -> page routing 
+----.module.ts -> page routing 
 
--->-->.database.service.spec.ts -> ignore
+----.database.service.spec.ts -> ignore
 
--->-->.database.service.ts -> database service to serve api endpoints
+----.database.service.ts -> database service to serve api endpoints
 
 
 server.js -> node + other external api addon + connect server 
