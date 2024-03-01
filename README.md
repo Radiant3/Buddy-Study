@@ -1,7 +1,10 @@
 # StudyBuddy
 
 ## Rough component function
-backend -> API routing + backend logic
+backend -> backend logic
+   controller ->
+   model -> data object schema
+   routes -> API routing
 
 Src
    app -> component pages folder
