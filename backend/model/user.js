@@ -11,7 +11,6 @@ const mongoose = require("mongoose");
  * Defines the schema for the User model.
  */
 const userSchema = mongoose.Schema({
-	Id:{},
 	firstName: {
 		type: String,
 		required: true
@@ -31,7 +30,12 @@ const userSchema = mongoose.Schema({
 	bio: {
 		type: String
 	},
-	password: {
+	hash: {
+		type: String,
+		required: true
+	}, 
+    salt : String,
+	email: {
 		type: String
 	},
 	contact:[{

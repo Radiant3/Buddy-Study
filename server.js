@@ -1,6 +1,10 @@
+const session = require("express-session");
+const passport = require("passport");
+const LocalStrategy = require("passport-local").Strategy;
 //creates express and connect to mongodb
 const express = require("express");
 const mongoose = require("mongoose");
+
 
 //connect to backend API routes
 const apiRouter = require("./backend/routes/INSERTNAMEOFFILEHERE");
