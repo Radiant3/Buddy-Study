@@ -12,6 +12,7 @@ import { DatabaseService } from './database.service';
 //pages
 import { IndexComponent } from './index/index.component';
 import { Route } from '@angular/router';
+import { FindBuddyPageComponent } from './find-buddy-page/find-buddy-page.component';
 
 const appRoutes: Routes = [
   { path: 'index', component: IndexComponent },
@@ -20,7 +21,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    IndexComponent,
+    FindBuddyPageComponent
   ],
   imports: [
     BrowserModule,
