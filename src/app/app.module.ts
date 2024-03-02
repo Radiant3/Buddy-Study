@@ -2,6 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule, isDevMode } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+// import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 //app stuff to change
 import { RouterModule, Routes } from '@angular/router';
@@ -12,6 +13,7 @@ import { DatabaseService } from './database.service';
 //pages
 import { IndexComponent } from './index/index.component';
 import { Route } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: 'index', component: IndexComponent },
@@ -27,7 +29,9 @@ const appRoutes: Routes = [
     HttpClientModule,
     AppRoutingModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes, { useHash: true })
+    RouterModule.forRoot(appRoutes, { useHash: true }),
+    BrowserAnimationsModule
+    // MatSlideToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
